@@ -1,0 +1,45 @@
+# ---- 数据 ----
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.csv
+*.xlsx
+*.parquet
+*.db
+*.sqlite
+
+# ---- 大文件 / 模型权重 ----
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.h5
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ---- 环境 ----
+.env
+
+# ---- 系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- 日志 ----
+logs/
+*.log
+wandb/
+outputs/
